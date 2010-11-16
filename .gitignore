@@ -1,0 +1,8 @@
+/GeekBook.Domaine.Specs/bin
+/GeekBook.Modèle/bin
+/GeekBook.Modèle.Tests/bin
+/GeekBook.Domaine.Specs/obj
+/GeekBook.Modèle/obj
+/GeekBook.Modèle.Tests/obj
+/_ReSharper.*
+/GeekBook.Domaine.Specs.5.1.ReSharper.user
