@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{ECED78E4-1F76-4ED8-8685-726B861ACD27}</ProjectGuid>
+    <ProjectGuid>{55664428-0576-403F-811D-A7F7028CCF50}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GeekBook.Modèle</RootNamespace>
-    <AssemblyName>GeekBook.Modèle</AssemblyName>
+    <RootNamespace>GeekBook.EntrepôtsHibernate</RootNamespace>
+    <AssemblyName>GeekBook.EntrepôtsHibernate</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,13 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Compte.cs" />
-    <Compile Include="Contact.cs" />
-    <Compile Include="Entrepôts.cs" />
-    <Compile Include="IEntrepôt.cs" />
-    <Compile Include="IEntrepôtCompte.cs" />
-    <Compile Include="IEntrepôtContact.cs" />
+    <Compile Include="EntrepôtsHibernate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeekBook.Modèle\GeekBook.Modèle.csproj">
+      <Project>{ECED78E4-1F76-4ED8-8685-726B861ACD27}</Project>
+      <Name>GeekBook.Modèle</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

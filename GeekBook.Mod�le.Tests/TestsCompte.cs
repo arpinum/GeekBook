@@ -15,7 +15,7 @@ namespace GeekBook.Modèle.Tests
         {
             _compte = new Compte("jb.dusseaut@arpinum.fr");
         }
-        
+
         [Test]
         public void PeutCreerCompte()
         {
@@ -23,18 +23,12 @@ namespace GeekBook.Modèle.Tests
         }
 
         [Test]
-        public void PeutAjouterContact()
+        public void PeutDéfinirSurnom()
         {
-            var contact = new Contact() {Nom = "Hanna", Prénom = "Samir"};
-         
-            _compte.AjouterContact(contact);
-            
-            Assert.That(_compte.Contacts.Count, Is.EqualTo(1));
+            _compte.Surnom = "JB";
 
-            var contactTrouvé = _compte.Contacts[0];
-            
-            Assert.That(contactTrouvé, Is.EqualTo(contact));
+            Assert.That(_compte.Surnom, Is.EqualTo("JB"));
+
         }
-
     }
 }

@@ -60,11 +60,11 @@ namespace GeekBook.Domaine.Specs.Features
 #line 3
 this.ScenarioSetup(scenarioInfo);
 #line 4
- testRunner.Given("je suis JB");
+ testRunner.Given("je suis \"JB\"");
 #line 5
- testRunner.When("je crée un contact");
+ testRunner.When("je crée 1 contact");
 #line 6
- testRunner.Then("j\'ai un contact");
+ testRunner.Then("j\'ai 1 contact");
 #line hidden
             testRunner.CollectScenarioErrors();
         }

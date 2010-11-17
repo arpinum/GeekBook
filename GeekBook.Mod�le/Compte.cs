@@ -6,9 +6,6 @@ namespace GeekBook.Modèle
 {
     public class Compte
     {
-        private readonly string _email;
-        private IList<Contact> _contacts = new List<Contact>();
-
         public Compte(string email)
         {
             this._email = email;
@@ -19,13 +16,21 @@ namespace GeekBook.Modèle
             get { return _email; }
         }
 
-        public IList<Contact> Contacts {
-            get { return new ReadOnlyCollection<Contact>(_contacts); }
+        public string Surnom
+        {
+            get;
+            set;
         }
 
-        public void AjouterContact(Contact contact)
+        public Contact NouveauContact()
         {
-            _contacts.Add(contact);
+            var nouveauContact = new Contact(this);
+
+            return nouveauContact;
         }
+
+        private readonly string _email;
+        private string _surnom;
+
     }
 }

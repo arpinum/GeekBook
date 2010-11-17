@@ -11,7 +11,7 @@ namespace GeekBook.Modèle.Tests
         [Test]
         public void PeutCréer()
         {
-            var contact = new Contact()
+            var contact = new Contact(new Compte("jb@arpinum.com"))
                               {
                                   Nom = "Dusseaut",
                                   Prénom = "Jb"
@@ -19,6 +19,17 @@ namespace GeekBook.Modèle.Tests
 
             Assert.That(contact.Nom, Is.EqualTo("Dusseaut"));
             Assert.That(contact.Prénom, Is.EqualTo("Jb"));
+        }
+
+        [Test]
+        public void NePeutPasCréerDeContactSansCpmpte()
+        {
+            var compte = new Compte("jb@arpinum.com");
+           
+            var contact = compte.NouveauContact();
+            
+            Assert.That(contact, Is.Not.Null);
+            Assert.That(contact.Compte, Is.EqualTo(compte));
         }
     }
 }
