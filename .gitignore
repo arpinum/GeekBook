@@ -6,5 +6,7 @@
 /GeekBook.Modèle.Tests/obj
 /GeekBook.EntrepôtsHibernate/obj
 /GeekBook.EntrepôtsHibernate/bin
+/GeekBook.EntrepôtsHibernateTest/obj
+/GeekBook.EntrepôtsHibernateTest/bin
 /_ReSharper.*
 /GeekBook.Domaine.Specs.5.1.ReSharper.user

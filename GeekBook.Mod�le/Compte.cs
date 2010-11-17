@@ -6,30 +6,36 @@ namespace GeekBook.Modèle
 {
     public class Compte
     {
+        protected Compte()
+        {
+            
+        }
+
         public Compte(string email)
         {
             this._email = email;
         }
 
-        public string Email
+        public virtual string Email
         {
             get { return _email; }
+            private set { _email = value; }
         }
 
-        public string Surnom
+        public virtual string Surnom
         {
             get;
             set;
         }
 
-        public Contact NouveauContact()
+        public virtual Contact NouveauContact()
         {
             var nouveauContact = new Contact(this);
 
             return nouveauContact;
         }
 
-        private readonly string _email;
+        private string _email;
         private string _surnom;
 
     }

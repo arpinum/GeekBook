@@ -9,14 +9,14 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="public" priority="9" />
-      <Item value="void" priority="8" />
+      <Item value="public" priority="10" />
+      <Item value="void" priority="9" />
       <Item value="var" priority="7" />
-      <Item value="new" priority="12" />
+      <Item value="new" priority="16" />
       <Item value="TestsCompte`0" priority="0" />
       <Item value="string" priority="2" />
       <Item value="Assert`0" priority="7" />
-      <Item value="compte" priority="3" />
+      <Item value="compte" priority="4" />
       <Item value="Is`0" priority="6" />
       <Item value="Contact`0" priority="5" />
       <Item value="Nom" priority="0" />
@@ -24,7 +24,7 @@
       <Item value="SetUpAttribute`0" priority="0" />
       <Item value="_compte" priority="9" />
       <Item value="contact" priority="2" />
-      <Item value="return" priority="4" />
+      <Item value="return" priority="5" />
       <Item value="List&lt;Contact&gt;" priority="1" />
       <Item value="Contact" priority="2" />
       <Item value="contactTrouvé" priority="0" />
@@ -41,18 +41,31 @@
       <Item value="foreach" priority="0" />
       <Item value="i" priority="1" />
       <Item value="nombre" priority="1" />
-      <Item value="Compte`0" priority="2" />
+      <Item value="Compte`0" priority="5" />
       <Item value="null" priority="2" />
       <Item value="nouveauContact" priority="1" />
       <Item value="this" priority="2" />
       <Item value="class" priority="0" />
       <Item value="Compte" priority="0" />
-      <Item value="Entrepôts`0" priority="5" />
+      <Item value="Entrepôts`0" priority="8" />
       <Item value="protected" priority="0" />
       <Item value="instance" priority="1" />
       <Item value="IEntrepôt" priority="0" />
       <Item value="SetUpFixtureAttribute`0" priority="0" />
-      <Item value="TestFixtureSetUpAttribute`0" priority="0" />
+      <Item value="TestFixtureSetUpAttribute`0" priority="1" />
+      <Item value="BeforeScenarioAttribute`0" priority="0" />
+      <Item value="EntrepôtsHibernateTest" priority="1" />
+      <Item value="EntrepôtsHibernate" priority="1" />
+      <Item value="ISessionFactory`0" priority="0" />
+      <Item value="EntrepôtsHbn`0" priority="2" />
+      <Item value="sessionFactory" priority="0" />
+      <Item value="MappingConfiguration`0" priority="0" />
+      <Item value="m" priority="0" />
+      <Item value="EntrepôtCompteHibernate`0" priority="0" />
+      <Item value="MappingCompte`0" priority="0" />
+      <Item value="Id`1" priority="1" />
+      <Item value="c" priority="0" />
+      <Item value="virtual" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
       <Item value="That`0" priority="6" />
@@ -70,6 +83,7 @@
       <Item value="Contacts" priority="1" />
       <Item value="AjouterContact`0" priority="0" />
       <Item value="NouveauContact`0" priority="0" />
+      <Item value="Email" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@TechTalk.SpecFlow.ScenarioContext">
       <Item value="Current" priority="0" />
@@ -83,59 +97,86 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@GeekBook.Modèle.Entrepôts">
       <Item value="instance" priority="0" />
-      <Item value="Contacts`0" priority="0" />
-      <Item value="Initialise`0" priority="0" />
+      <Item value="Contacts`0" priority="1" />
+      <Item value="Initialise`0" priority="1" />
+      <Item value="Comptes`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:GeekBook.Modèle.Entrepôts">
       <Item value="EntrepôtContact`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GeekBook.Modèle.IEntrepôtContact">
+      <Item value="Ajoute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FluentNHibernate.Cfg.Fluently">
+      <Item value="Configure`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentConfiguration">
+      <Item value="Database`0" priority="0" />
+      <Item value="BuildSessionFactory`0" priority="0" />
+      <Item value="Mappings`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@FluentNHibernate.Cfg.Db.SQLiteConfiguration">
+      <Item value="Standard" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.Db.SQLiteConfiguration">
+      <Item value="InMemory`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.MappingConfiguration">
+      <Item value="FluentMappings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:FluentNHibernate.Cfg.FluentMappingsContainer">
+      <Item value="AddFromAssembly`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
       <File id="2A894336-B509-4A2F-A1D9-DA96E62ED2EF/f:TestsCompte.cs" caret="621" fromTop="28" />
       <File id="2A894336-B509-4A2F-A1D9-DA96E62ED2EF/f:TestsContact.cs" caret="571" fromTop="14" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="427" fromTop="13" />
       <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Contact.cs" caret="375" fromTop="18" />
       <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Features/f:CréationContact.feature" caret="151" fromTop="5" />
       <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Features/f:CréationContact.feature.cs" caret="0" fromTop="0" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="382" fromTop="10" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôtCompte.cs" caret="85" fromTop="2" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôt.cs" caret="101" fromTop="4" />
       <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôtContact.cs" caret="192" fromTop="5" />
-      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtsHibernate.cs" caret="255" fromTop="9" />
-      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="260" fromTop="12" />
+      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="350" fromTop="16" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôtCompte.cs" caret="130" fromTop="5" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôt.cs" caret="150" fromTop="7" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="240" fromTop="11" />
+      <File id="565A7A79-E89A-424B-BF4D-503235A5650B/f:TestEntrepôtCompte.cs" caret="394" fromTop="16" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtCompteHibernate.cs" caret="271" fromTop="11" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtsHbn.cs" caret="543" fromTop="17" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/d:Mapping/f:MappingCompte.cs" caret="338" fromTop="14" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="507" fromTop="13" />
     </RecentFiles>
     <RecentEdits>
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Contact.cs" caret="350" fromTop="12" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="703" fromTop="12" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Contact.cs" caret="177" fromTop="7" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Contact.cs" caret="151" fromTop="9" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Contact.cs" caret="362" fromTop="17" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Contact.cs" caret="148" fromTop="8" />
-      <File id="2A894336-B509-4A2F-A1D9-DA96E62ED2EF/f:TestsContact.cs" caret="847" fromTop="23" />
-      <File id="2A894336-B509-4A2F-A1D9-DA96E62ED2EF/f:TestsContact.cs" caret="319" fromTop="7" />
-      <File id="2A894336-B509-4A2F-A1D9-DA96E62ED2EF/f:TestsCompte.cs" caret="513" fromTop="15" />
-      <File id="2A894336-B509-4A2F-A1D9-DA96E62ED2EF/f:TestsCompte.cs" caret="368" fromTop="17" />
-      <File id="2A894336-B509-4A2F-A1D9-DA96E62ED2EF/f:TestsCompte.cs" caret="525" fromTop="23" />
-      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="24" fromTop="1" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="337" fromTop="19" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="153" fromTop="8" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="657" fromTop="22" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="427" fromTop="10" />
-      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="933" fromTop="23" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="654" fromTop="23" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="619" fromTop="24" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="721" fromTop="26" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="505" fromTop="15" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="382" fromTop="10" />
-      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="629" fromTop="10" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôt.cs" caret="101" fromTop="4" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôtCompte.cs" caret="85" fromTop="2" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="509" fromTop="10" />
+      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="925" fromTop="23" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="658" fromTop="23" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="623" fromTop="24" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="725" fromTop="26" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="508" fromTop="15" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="384" fromTop="10" />
+      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="621" fromTop="10" />
       <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôtContact.cs" caret="142" fromTop="6" />
-      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="1141" fromTop="15" />
-      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="418" fromTop="15" />
-      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="1198" fromTop="24" />
-      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtsHibernate.cs" caret="209" fromTop="8" />
+      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="1133" fromTop="15" />
+      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="1190" fromTop="24" />
+      <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Steps/f:ContactSteps.cs" caret="320" fromTop="6" />
+      <File id="565A7A79-E89A-424B-BF4D-503235A5650B/f:TestEntrepôtCompte.cs" caret="636" fromTop="19" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôtCompte.cs" caret="140" fromTop="6" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôt.cs" caret="157" fromTop="7" />
+      <File id="565A7A79-E89A-424B-BF4D-503235A5650B/f:TestEntrepôtCompte.cs" caret="583" fromTop="19" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="201" fromTop="6" />
+      <File id="565A7A79-E89A-424B-BF4D-503235A5650B/f:TestEntrepôtCompte.cs" caret="283" fromTop="11" />
+      <File id="565A7A79-E89A-424B-BF4D-503235A5650B/f:TestEntrepôtCompte.cs" caret="394" fromTop="16" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtsHbn.cs" caret="692" fromTop="9" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtsHbn.cs" caret="855" fromTop="17" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtCompteHibernate.cs" caret="334" fromTop="12" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtCompteHibernate.cs" caret="271" fromTop="11" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtsHbn.cs" caret="559" fromTop="17" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtsHbn.cs" caret="119" fromTop="5" />
+      <File id="55664428-0576-403F-811D-A7F7028CCF50/d:Mapping/f:MappingCompte.cs" caret="338" fromTop="14" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="204" fromTop="10" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="337" fromTop="18" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="433" fromTop="23" />
+      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="531" fromTop="23" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

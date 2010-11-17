@@ -16,7 +16,7 @@ namespace GeekBook.Domaine.Specs.Steps
         [BeforeScenario]
         public void Setup()
         {
-            Entrepôts.Initialise(new EntrepôtsHibernate.EntrepôtsHibernate());
+            Entrepôts.Initialise(new EntrepôtsHibernate.EntrepôtsHbn());
         }
 
         [Given(@"je suis ""(.*)""")]

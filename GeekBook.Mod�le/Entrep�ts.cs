@@ -7,21 +7,21 @@ namespace GeekBook.Modèle
 {
     public abstract class Entrepôts
     {
-        private static Entrepôts instance;
+        private static Entrepôts _instance;
 
         public static void Initialise(Entrepôts instance)
         {
-            Entrepôts.instance = instance;
+            Entrepôts._instance = instance;
         }
 
         public static IEntrepôtContact Contacts()
         {
-            return instance.EntrepôtContact();
+            return _instance.EntrepôtContact();
         }
 
         public static IEntrepôtCompte Comptes()
         {
-            return instance.EntrepôtCompte();
+            return _instance.EntrepôtCompte();
         }
 
         protected abstract IEntrepôtCompte EntrepôtCompte();
