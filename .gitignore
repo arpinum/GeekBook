@@ -8,5 +8,11 @@
 /GeekBook.EntrepôtsHibernate/bin
 /GeekBook.EntrepôtsHibernateTest/obj
 /GeekBook.EntrepôtsHibernateTest/bin
+/GeekBook.Web/obj
+/GeekBook.Web/bin
+/GeekBook.Web.Contrôleur/obj
+/GeekBook.Web.Contrôleur/bin
+/GeekBook.Web.Contrôleur.Tests/obj
+/GeekBook.Web.Contrôleur.Tests/bin
 /_ReSharper.*
 /GeekBook.Domaine.Specs.5.1.ReSharper.user
