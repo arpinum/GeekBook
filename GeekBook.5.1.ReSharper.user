@@ -117,6 +117,7 @@
       <Item value="EntrepôtHibernate" priority="0" />
       <Item value="query" priority="0" />
       <Item value="HttpPutAttribute`0" priority="0" />
+      <Item value="#endregion" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
       <Item value="That`0" priority="12" />
@@ -248,10 +249,12 @@
     <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
       <Item value="ToList`1" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:GeekBook.Web.Models.RegisterModel">
+      <Item value="UserName" priority="0" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="2A894336-B509-4A2F-A1D9-DA96E62ED2EF/f:TestsCompte.cs" caret="621" fromTop="28" />
       <File id="70E07C5D-B690-4012-88A3-D511892C1FE3/d:Features/f:CréationContact.feature.cs" caret="0" fromTop="0" />
       <File id="2A894336-B509-4A2F-A1D9-DA96E62ED2EF/f:TestsContact.cs" caret="571" fromTop="14" />
       <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Entrepôts.cs" caret="240" fromTop="11" />
@@ -275,18 +278,15 @@
       <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:IEntrepôtCompte.cs" caret="109" fromTop="4" />
       <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtCompteHibernate.cs" caret="331" fromTop="14" />
       <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtContactHibernate.cs" caret="433" fromTop="16" />
-      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Models/f:AccountModels.cs" caret="0" fromTop="0" />
       <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Views/f:Web.config" caret="0" fromTop="0" />
       <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/f:Web.config" caret="954" fromTop="23" />
-      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/f:Global.asax.cs" caret="619" fromTop="8" />
-      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Controllers/f:AccountController.cs" caret="1002" fromTop="32" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Models/f:AccountModels.cs" caret="767" fromTop="10" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Views/d:Shared/f:Site.Master" caret="1149" fromTop="17" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/f:Global.asax.cs" caret="633" fromTop="17" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Views/d:Account/f:Register.aspx" caret="952" fromTop="1" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Controllers/f:AccountController.cs" caret="527" fromTop="20" />
     </RecentFiles>
     <RecentEdits>
-      <File id="55664428-0576-403F-811D-A7F7028CCF50/d:Mapping/f:MappingContact.cs" caret="399" fromTop="15" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="1185" fromTop="29" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="780" fromTop="9" />
-      <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="1082" fromTop="22" />
-      <File id="55664428-0576-403F-811D-A7F7028CCF50/d:Mapping/f:MappingContact.cs" caret="453" fromTop="16" />
       <File id="ECED78E4-1F76-4ED8-8685-726B861ACD27/f:Compte.cs" caret="919" fromTop="7" />
       <File id="55664428-0576-403F-811D-A7F7028CCF50/d:Mapping/f:MappingCompte.cs" caret="335" fromTop="10" />
       <File id="565A7A79-E89A-424B-BF4D-503235A5650B/f:TestHibernate.cs" caret="861" fromTop="24" />
@@ -311,7 +311,12 @@
       <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtCompteHibernate.cs" caret="295" fromTop="10" />
       <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtCompteHibernate.cs" caret="331" fromTop="14" />
       <File id="55664428-0576-403F-811D-A7F7028CCF50/f:EntrepôtContactHibernate.cs" caret="525" fromTop="19" />
-      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Controllers/f:AccountController.cs" caret="1110" fromTop="23" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Views/d:Account/f:Register.aspx" caret="952" fromTop="22" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Controllers/f:AccountController.cs" caret="2134" fromTop="13" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Controllers/f:AccountController.cs" caret="3793" fromTop="115" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Controllers/f:AccountController.cs" caret="387" fromTop="17" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/d:Controllers/f:AccountController.cs" caret="1101" fromTop="29" />
+      <File id="24C356BD-85A3-45F5-ACFC-199E20EC195F/f:Global.asax.cs" caret="705" fromTop="18" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
