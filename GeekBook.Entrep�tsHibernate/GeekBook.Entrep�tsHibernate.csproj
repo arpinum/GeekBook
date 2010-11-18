@@ -61,8 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EntrepôtCompteHibernate.cs" />
+    <Compile Include="EntrepôtContactHibernate.cs" />
+    <Compile Include="EntrepôtHibernate.cs" />
     <Compile Include="EntrepôtsHbn.cs" />
+    <Compile Include="GestionnaireSession.cs" />
     <Compile Include="Mapping\MappingCompte.cs" />
+    <Compile Include="Mapping\MappingContact.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

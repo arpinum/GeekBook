@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using GeekBook.EntrepôtsHibernate;
 using GeekBook.Modèle;
+using NHibernate.Context;
+using NHibernate.Tool.hbm2ddl;
 using NUnit.Framework;
 using TechTalk.SpecFlow;
 
@@ -12,11 +15,16 @@ namespace GeekBook.Domaine.Specs.Steps
     public class ContactSteps
     {
         private Compte _compte;
+        public GestionnaireSession GestionnaireSession;
+
 
         [BeforeScenario]
         public void Setup()
         {
-            Entrepôts.Initialise(new EntrepôtsHibernate.EntrepôtsHbn());
+            GestionnaireSession = new GestionnaireSession();
+            Entrepôts.Initialise(new EntrepôtsHbn(GestionnaireSession));
+            CurrentSessionContext.Bind(GestionnaireSession.OuvreSession());
+            new SchemaExport(GestionnaireSession.Configuration).Execute(false, true, false, GestionnaireSession.SessionCourante.Connection, null);
         }
 
         [Given(@"je suis ""(.*)""")]

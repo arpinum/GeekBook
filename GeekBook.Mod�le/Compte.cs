@@ -35,8 +35,38 @@ namespace GeekBook.Modèle
             return nouveauContact;
         }
 
+
+        public override bool Equals(object obj)
+        {
+            if (obj != null && obj is Compte)
+            {
+                var autre = (Compte) obj;
+                return autre.Email == Email;
+            }
+            return false;
+        }
+
+        public static bool operator == (Compte compte, Compte autre)
+        {
+            if(compte != null)
+            {
+                return compte.Equals(autre);
+            }
+
+            return false;
+        }
+
+        public static bool operator !=(Compte compte, Compte autre)
+        {
+            return !(compte == autre);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
         private string _email;
         private string _surnom;
-
     }
 }

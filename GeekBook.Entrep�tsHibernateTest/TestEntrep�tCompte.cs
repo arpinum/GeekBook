@@ -2,30 +2,24 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using FluentNHibernate.Testing;
 using GeekBook.EntrepôtsHibernate;
 using GeekBook.Modèle;
 using NHibernate.Context;
+using NHibernate.Tool.hbm2ddl;
 using NUnit.Framework;
 
 namespace GeekBook.EntrepôtsHibernateTest
 {
     [TestFixture]
-    public class TestEntrepôtCompte
+    public class TestEntrepôtCompte : TestHibernate
     {
         [Test]
-        public void PeutAjouter()
+        public void EstBienMappé()
         {
-            Entrepôts.Initialise(new EntrepôtsHbn());
-            var compte = new Compte("jb.dusseaut@arpinum.com");
-            compte.Surnom = "BodySplash";
-
-            Entrepôts.Comptes().Ajoute(compte);
-            EntrepôtsHbn.sessionCourante.Clear();
-
-            var comptes = Entrepôts.Comptes().Tous();
-            Assert.That(comptes.Count, Is.EqualTo(1));
-            Assert.That(comptes[0].Email, Is.EqualTo("jb.dusseaut@arpinum.com"));
-            Assert.That(comptes[0].Surnom, Is.EqualTo("BodySplash"));
+            new PersistenceSpecification<Compte>(GestionnaireSession.SessionCourante)
+                .CheckProperty(c => c.Surnom, "BodySplash")
+                .CheckProperty(c => c.Email, "jb.dusseaut@arpinum.com").VerifyTheMappings();
         }
     }
 }
